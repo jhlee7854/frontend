@@ -7,11 +7,13 @@ import { MemberComponent } from './member/member.component';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
+import { BoardComponent } from './board/board.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MemberComponent
+    MemberComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,
