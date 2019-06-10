@@ -3,6 +3,6 @@ export class Article {
   title: string;
   content: string;
   authorId: string;
-  createdAt: date;
-  updatedAt: date;
+  createdAt: Date;
+  updatedAt: Date;
 }
